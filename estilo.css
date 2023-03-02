@@ -1,0 +1,79 @@
+*{background-color: rgb(211, 224, 223);
+margin: 0;
+padding: 0;
+box-sizing: content-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+
+
+h1{
+    color:black ;
+    text-decoration: underline;
+    font-size: 40px;
+    }
+
+img{
+    float: left;
+    border-radius: 80%;
+    position: relative;
+    left: 20px;
+}
+
+#demo{
+    font-size: 30px;
+    position: absolute;
+    background-color: brown;
+    left: 650px;
+    top: 130px;
+}
+
+
+
+
+
+/*Configuracion botones de datos personales*/
+section{
+    display: flex;
+    min-height: 50vh;
+    align-items: center;
+    
+
+}
+
+.buttons{
+    min-width: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    
+
+}
+
+
+
+h2{
+    text-align: center;}
+
+i{display: inline; width: 200px; height: 50px;}
+
+h1, i{margin: auto;text-align: center; }
+
+#educacion{margin: auto;text-align: center;}
+.sub_exp{font-weight: bold}
+
+
+
+
